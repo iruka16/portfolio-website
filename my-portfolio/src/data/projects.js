@@ -1,7 +1,7 @@
 import kora2 from '../assets/kora2.png'; // or any image
 import website from '../assets/website.png';
-import paypal from '../assets/paypal.png';
 import pokemon from '../assets/pokemon.png';
+import paypal1 from '../assets/paypal1.png';
 export const projects = [
   {
     id: 1,
@@ -18,7 +18,7 @@ export const projects = [
     title: "NexaAI",
     tags: ["Next.js", "OpenAI", "TailwindCSS"],
     description: "AI powered productivity assistant using OpenAI API.",
-    image: paypal,
+    image: paypal1,
     category: "projects",
     github: "#",
     live: "#"
