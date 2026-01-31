@@ -1,7 +1,7 @@
 function Hogwarts () {
     return (
-        <section className = " w-screen min-h-screen bg-[#F1E9D2] text-[#909EAE] p-10">
-            <header className ="flex items-start justify-between items-center text-sm">
+        <section className = "md:max-w-full min-h-screen bg-[#F1E9D2] text-[#909EAE] p-10">
+            <header className ="w-full flex items-start justify-between items-center text-sm">
             <p className = "text-[#909EAE] font-bold text-lg hover:-translate-y-1 transition-transform duration-300">Software Developer and Engineer</p>
             <nav className="flex flex-col md:flex-row gap-6 text-lg">
                 <a href="#projetcs" className="text-[#909EAE] font-bold hover:scale-185 transition-transform duration-400">Projects</a>
@@ -12,7 +12,7 @@ function Hogwarts () {
             </header>
             <div className="w-full flex flex-col justify-center mt-10">
                 <h2 className="text-2xl md:text-3xl mb-0">HI im,</h2>
-                <h1 className="text-6xl font-bold text-[#909EAE] leading-tight md:text-[160px] md:mt-0 md:whitespace-nowrap [text-shadow:1px_1px_2px_black]">IRUKA ONWUBIKO</h1>
+                <h1 className="text-6xl font-bold text-[#909EAE] leading-tight lg:text-[160px] md:mt-0 md:whitespace-nowrap [text-shadow:1px_1px_2px_black]">IRUKA ONWUBIKO</h1>
             </div>
              <div className="flex flex-col justify-center md:flex-row md:justify-between items-start  md:mt-10">
                 <div className="flex flex-col space-y-6 justify-start">

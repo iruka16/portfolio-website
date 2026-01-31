@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <div className='font-Merriweather font-bold bg-[#F1E9D2]'>
+    <div className='md:max-w-full font-Merriweather font-bold bg-[#F1E9D2]'>
       <Hogwarts/>
       <Houses/>
       <Experience />
